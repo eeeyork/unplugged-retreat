@@ -136,6 +136,11 @@ address {
   width: 90%;
   margin: 50px 0;
 }
+
+img {
+  width: 100%;
+}
+
    /* ------------ Base Header - Footer Styles --------------------*/
 
 header, 
