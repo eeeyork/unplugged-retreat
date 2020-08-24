@@ -741,9 +741,10 @@ input[type=button] {
   }
 
   p {
-      font-size: 1.125em;
+      font-size: 1.em;
       line-height: 1.333;
   }
+
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
@@ -802,10 +803,11 @@ input[type=button] {
       font-size: 3em;
   }
 
-  .contact-content h4 {
-    font-size: 1.875em;
+ .contact-content h4 {
+    font-size: 1em;
   }
-  
+
+
 
   /* ==========================================================================
   FAQ Page
