@@ -228,7 +228,7 @@ footer .contact {
 
 footer .social-icons {
   display:flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -326,17 +326,14 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;;
+}
+
 .features p {
   margin: 0;
   text-align: center;
-}
-
-.features-item-description {
-
-}
-
-.features .fontawesome-icon {
-
 }
 
 /* Reviews */
@@ -369,6 +366,22 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #527158;
+}
+
+.map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .contact-section {
@@ -415,10 +428,6 @@ input[type=button] {
 .faq-content h4 {
   line-height: 1.333;
 }
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -527,7 +536,6 @@ input[type=button] {
   }
 
   /* Header */
-
   header {
     justify-content: space-around;
     padding: 33px 0;
@@ -581,7 +589,6 @@ input[type=button] {
   }
 
   /* Features */
-
   .features h2 {
     margin-bottom: 20px;
   }
@@ -661,6 +668,10 @@ input[type=button] {
     .mission-content p {
       width: 45%;
     }
+
+    .map figure {
+      padding-bottom: 45.5%;
+    }
   
     .contact-section .content-wrapper h2 {
       width: 80%;
@@ -727,7 +738,7 @@ input[type=button] {
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
 }
 
   /* Aside */
@@ -772,6 +783,10 @@ input[type=button] {
   About Page
   ========================================================================== */
 
+  .map figure {
+    padding-bottom: 37.5%;
+  }
+  
   .mission h2,
   .contact-section .content-wrapper h2 {
       width: 95%;
